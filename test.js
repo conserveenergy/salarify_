@@ -1,6 +1,7 @@
 // test.js
 const arr = [//["organization/board", "job title", "qualification" "end date", "notification/website link"]
-["Rajasthan Staff Selection Board (RSSB)","Animal Attendant","10th","17-02-2024","https://rsmssb.rajasthan.gov.in/Static/files/AA2023_Advert_06102023.pdf"],["AAI","Senior assistant","Diploma in Ectronics;Diploma in Telecommunications;Diploma in Radio Engineering;B.com;Degree with LMV licence;","2024-10-01T18:30:00.000Z","https://cdn.digialm.com//per/g01/pub/726/EForms/image/ImageDocUpload/12/1115257132830397025754.pdf"],["AAI","junior assistant","12th;Diploma","2024-10-01T18:30:00.000Z","https://cdn.digialm.com//per/g01/pub/726/EForms/image/ImageDocUpload/12/1115257132830397025754.pdf"],["ECIL","Junior Technician","Chemical Engineering;Chemical Technology;Petrochemical Engineering;Petrochemical Technology;Mechanical Engineering;Electrical Engineering;Electrical Engineering;Electronics\nEngineering;Computer Science;Computer Engineering;Computer Technology;Information Science;Information Engineering;Information\nTechnology;Artificial Intelligence;Machine\nLearning;Data Science;Cyber Security;Internet-of-Things\n","16-01-2024","https://advt91.recttindia.in/Design/Advt.No.91.pdf"]
+["Rajasthan Staff Selection Board (RSSB)","Animal Attendant","10th","17-02-2024","https://rsmssb.rajasthan.gov.in/Static/files/AA2023_Advert_06102023.pdf"],["AAI","Senior assistant","Diploma in Ectronics; Diploma in Telecommunications; Diploma in Radio Engineering; B.com; Degree with LMV licence","2024-10-01T18:30:00.000Z","https://cdn.digialm.com//per/g01/pub/726/EForms/image/ImageDocUpload/12/1115257132830397025754.pdf"],["AAI","junior assistant","12th; Diploma","2024-10-01T18:30:00.000Z","https://cdn.digialm.com//per/g01/pub/726/EForms/image/ImageDocUpload/12/1115257132830397025754.pdf"],["ECIL","Junior Technician","Chemical Engineering; Chemical Technology; Petrochemical Engineering; Petrochemical Technology; Mechanical Engineering; Electrical Engineering; Electrical Engineering; Electronics\nEngineering; Computer Science; Computer Engineering; Computer Technology; Information Science; Information Engineering; Information\nTechnology; Artificial Intelligence; Machine\nLearning; Data Science; Cyber Security; Internet-of-Things\n","16-01-2024","https://advt91.recttindia.in/Design/Advt.No.91.pdf"]
+    
 ];
 
 var qualificationarr = []
@@ -10,7 +11,7 @@ for(i=0;i<arr.length;i++){
 }
 
 
-const resultArray = qualificationarr.flatMap(element => element.split(/[,;]/));
+const resultArray = qualificationarr.flatMap(element => element.split(/[,; ]/));
 
 function removeDuplicates(resultArray) {
     // Use Set to store unique elements
