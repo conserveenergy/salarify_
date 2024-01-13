@@ -1,18 +1,6 @@
 // test.js
 const arr = [//["organization/board", "job title", "qualification" "end date", "notification/website link"]
-["b1 lorem34","j1","q1","Ld1","link1","s1"],
-["b2 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus, illo. hi hi hi Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus, illo.","j2","Aerospace Engineering;degree","Ld2","link2","s2"],
-["b3","j3 Loremipsumdolor sit amet.","q3","Ld3","link3","s3"],
-["b4","j4","q4","Ld4","link4","s4"],
-["b5","j5","q5","Ld5","link5","s5"],
-["b6","j6","q6","Ld6","link6","s6"],
-["b7","j7","q7","Ld7","link7","s7"],
-["b8","j8","q8","Ld8","link8","s8"],
-["b9","j9","q9","Ld9","link9","s9"],
-["b10","j10","q10","Ld10","link10","s10"],
-["b1","j1","10th","Ld1","link1","s1"],["b2","j2","12th","Ld2","link2","s2"],["b3","j3","degree","Ld3","link3","s3"],["b4","j4","degree","Ld4","link4","s4"],["b5","j5","q5","Ld5","link5","s5"],["b6","j6","q6","Ld6","link6","s6"],["b7","j7","q7","Ld7","link7","s7"],["b8","j8","q8","Ld8","link8","s8"],["b9","j9","q9","Ld9","link9","s9"],["b10","j10","q10","Ld10","link10","s10"],
-["b1","j1","q1","Ld1","https://chat.openai.com/c/a16f9284-9b3b-4595-8d55-84ce20dc0f8d","s1"]
-
+["Rajasthan Staff Selection Board (RSSB)","Animal Attendant... Read more at: https://www.adda247.com/jobs/rajasthan-animal-attendant-recruitment-2023/","10th","17-02-2024","https://rsmssb.rajasthan.gov.in/Static/files/AA2023_Advert_06102023.pdf"],["AAI","Senior assistant","Diploma in Ectronics;Diploma in Telecommunications;Diploma in Radio Engineering;B.com;Degree with LMV licence;","2024-10-01T18:30:00.000Z","https://cdn.digialm.com//per/g01/pub/726/EForms/image/ImageDocUpload/12/1115257132830397025754.pdf"],["AAI","junior assistant","12th;Diploma","2024-10-01T18:30:00.000Z","https://cdn.digialm.com//per/g01/pub/726/EForms/image/ImageDocUpload/12/1115257132830397025754.pdf"],["ECIL","Junior Technician","Chemical Engineering;Chemical Technology;Petrochemical Engineering;Petrochemical Technology;Mechanical Engineering;Electrical Engineering;Electrical Engineering;Electronics\nEngineering;Computer Science;Computer Engineering;Computer Technology;Information Science;Information Engineering;Information\nTechnology;Artificial Intelligence;Machine\nLearning;Data Science;Cyber Security;Internet-of-Things\n","16-01-2024","https://advt91.recttindia.in/Design/Advt.No.91.pdf"]
 ];
 
 var qualificationarr = []
