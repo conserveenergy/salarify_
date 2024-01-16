@@ -28,7 +28,8 @@
             border: 2px solid grey;
             border-radius: 5px;
             padding: 1rem;
-            max-width: 75%;
+            /* max-width: 75%; */
+            width: 100%;
         }
 
         th, td {
@@ -97,10 +98,6 @@
         }
 
         @media (max-width:780px){
-
-            .center p{
-                font-weight:500;
-            }
             table{
                 font-size: 75%;
             }
@@ -111,14 +108,19 @@
             }
             table tr td{
                 padding: 2px;
-                max-width: 100;
+                /* max-width: 100; */
+            }
+
+            .center p{
+                color: rgb(41, 41, 101);
+                font-size: 100%;
+                margin-top: 0;
+                font-weight: 1000;
             }
         }
       
         @media (max-width:560px){
-            .center p{
-                font-weight:300;
-            }
+            
             header div{
                 display: inline-block;
                 max-height: 100px;
@@ -140,9 +142,13 @@
                 margin: auto;
             }
 
+            .center p{
+                font-size: 75%;
+            }
+
             table{
                 padding: 0;
-                font-size: 65%;
+                font-size: 62%;
             }
 
             .head td{
@@ -160,19 +166,16 @@
                 margin: 5px;
             /* background-color: orange; */
             }
-
+/* 
             table tr td{
             padding: 2px;
-        }
+        } */
         }
 
         @media (max-width: 400px){
-            .center p{
-                font-weight:100;
-            }
             table{
                 padding: 0;
-                font-size: 55%;
+                font-size: 48%;
             }
 
             input{
@@ -187,9 +190,9 @@
                 /* background-color: orange; */
             }
 
-            table tr td{
+            /* table tr td{
                 max-width: 50px;
-            }
+            } */
         }
 
         @media (max-width:320px){
